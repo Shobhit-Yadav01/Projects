@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "UserProfile": {
+      "collection": "users",
+      "fields": {
+        "userId": "string",
+        "email": "string",
+        "displayName": "string",
+        "photoURL": "string",
+        "createdAt": "timestamp",
+        "securityPreferences": {
+          "encryptionNoticeAck": "boolean",
+          "autoExtractActionItems": "boolean",
+          "retentionDays": "number"
+        }
+      }
+    },
+    "JournalEntry": {
+      "collection": "users/{userId}/journals",
+      "fields": {
+        "id": "string",
+        "userId": "string",
+        "title": "string",
+        "content": "string",
+        "mode": "string",
+        "mood": "string",
+        "tags": "array",
+        "messages": "array",
+        "summary": "string",
+        "keyThemes": "array",
+        "actionItemsCount": "number",
+        "createdAt": "timestamp",
+        "updatedAt": "timestamp"
+      }
+    },
+    "ActionItem": {
+      "collection": "users/{userId}/action_items",
+      "fields": {
+        "id": "string",
+        "userId": "string",
+        "journalId": "string",
+        "title": "string",
+        "description": "string",
+        "priority": "string",
+        "category": "string",
+        "status": "string",
+        "suggestedDeadline": "string",
+        "tags": "array",
+        "createdAt": "timestamp",
+        "completedAt": "timestamp"
+      }
+    }
+  }
+}
