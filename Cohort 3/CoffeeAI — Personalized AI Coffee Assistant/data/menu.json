@@ -1,0 +1,362 @@
+[
+  {
+    "id": "prod_cold_brew_01",
+    "name": "Signature Cold Brew",
+    "category": "Cold Brew",
+    "description": "Slow-steeped for 20 hours using single-origin Ethiopian Yirgacheffe beans. Velvety smooth with natural chocolate and citrus notes.",
+    "basePrice": 4.75,
+    "sizes": [
+      { "name": "Small (12oz)", "price": 4.25, "caffeineMg": 160 },
+      { "name": "Medium (16oz)", "price": 4.75, "caffeineMg": 210 },
+      { "name": "Large (24oz)", "price": 5.45, "caffeineMg": 310 }
+    ],
+    "temperature": "Cold",
+    "sweetnessLevel": "Unsweetened",
+    "defaultSweetnessPercent": 0,
+    "caffeineLevel": "High",
+    "caffeineMg": 210,
+    "calories": 5,
+    "milkOptions": ["None", "Oat Milk", "Almond Milk", "Whole Milk", "Skim Milk", "Soy Milk", "Coconut Milk"],
+    "dietaryTags": ["Vegan", "Dairy-Free", "Gluten-Free", "Keto-Friendly", "Sugar-Free", "Low-Calorie"],
+    "ingredients": ["Filtered Triple-Purified Water", "100% Arabica Ethiopian Yirgacheffe Coffee"],
+    "flavorNotes": ["Dark Chocolate", "Bergamot Citrus", "Molasses"],
+    "roastLevel": "Medium-Light",
+    "popularity": 98,
+    "isFeatured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_nitro_cold_brew_02",
+    "name": "Nitro Velvet Draft",
+    "category": "Cold Brew",
+    "description": "Our signature cold brew infused with pure nitrogen on tap for a cascading microfoam head, creamy mouthfeel, and zero dairy.",
+    "basePrice": 5.25,
+    "sizes": [
+      { "name": "Medium (16oz)", "price": 5.25, "caffeineMg": 240 },
+      { "name": "Large (20oz)", "price": 5.95, "caffeineMg": 330 }
+    ],
+    "temperature": "Cold",
+    "sweetnessLevel": "Unsweetened",
+    "defaultSweetnessPercent": 0,
+    "caffeineLevel": "High",
+    "caffeineMg": 240,
+    "calories": 5,
+    "milkOptions": ["None", "Oat Foam Topper"],
+    "dietaryTags": ["Vegan", "Dairy-Free", "Gluten-Free", "Keto-Friendly", "Sugar-Free", "Low-Calorie"],
+    "ingredients": ["Filtered Water", "Single-Origin Colombian Gesha Coffee", "Nitrogen"],
+    "flavorNotes": ["Silky Cream", "Caramelized Sugar", "Blackberry"],
+    "roastLevel": "Medium",
+    "popularity": 94,
+    "isFeatured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": false
+    }
+  },
+  {
+    "id": "prod_oat_vanilla_latte_03",
+    "name": "Madagascar Oat Vanilla Latte",
+    "category": "Espresso & Milk",
+    "description": "Double shot of espresso, steamed organic oat milk, and house-made real Madagascar Bourbon vanilla bean syrup.",
+    "basePrice": 5.85,
+    "sizes": [
+      { "name": "Small (12oz)", "price": 5.35, "caffeineMg": 140 },
+      { "name": "Medium (16oz)", "price": 5.85, "caffeineMg": 150 },
+      { "name": "Large (20oz)", "price": 6.45, "caffeineMg": 220 }
+    ],
+    "temperature": "Both",
+    "sweetnessLevel": "Medium",
+    "defaultSweetnessPercent": 50,
+    "caffeineLevel": "Medium",
+    "caffeineMg": 150,
+    "calories": 180,
+    "milkOptions": ["Oat Milk", "Almond Milk", "Whole Milk", "Skim Milk", "Coconut Milk"],
+    "dietaryTags": ["Vegan", "Dairy-Free", "Gluten-Free"],
+    "ingredients": ["Espresso (House Blend)", "Oatly Barista Edition Oat Milk", "Madagascar Vanilla Bean Extract", "Organic Cane Sugar"],
+    "flavorNotes": ["Warm Vanilla", "Toasted Oats", "Honeyed Hazelnut"],
+    "roastLevel": "Medium-Dark",
+    "popularity": 96,
+    "isFeatured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_honey_lavender_iced_latte_04",
+    "name": "Honey Lavender Iced Latte",
+    "category": "Espresso & Milk",
+    "description": "Espresso poured over chilled oat milk, infused with raw wildflower honey and French culinary lavender blossom extract.",
+    "basePrice": 6.10,
+    "sizes": [
+      { "name": "Medium (16oz)", "price": 6.10, "caffeineMg": 150 },
+      { "name": "Large (24oz)", "price": 6.75, "caffeineMg": 225 }
+    ],
+    "temperature": "Cold",
+    "sweetnessLevel": "Low-Medium",
+    "defaultSweetnessPercent": 35,
+    "caffeineLevel": "Medium",
+    "caffeineMg": 150,
+    "calories": 160,
+    "milkOptions": ["Oat Milk", "Almond Milk", "Whole Milk", "Coconut Milk"],
+    "dietaryTags": ["Dairy-Free", "Gluten-Free", "Vegetarian"],
+    "ingredients": ["Double Espresso", "Oat Milk", "Wildflower Raw Honey", "Organic French Lavender Extract", "Ice"],
+    "flavorNotes": ["Floral Lavender", "Golden Honey", "Smooth Cream"],
+    "roastLevel": "Medium",
+    "popularity": 89,
+    "isFeatured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_cortado_05",
+    "name": "Artisanal Spanish Cortado",
+    "category": "Espresso & Milk",
+    "description": "Equal parts double ristretto espresso and velvety steamed milk. Intense coffee flavor cut gently with warm sweet milk.",
+    "basePrice": 4.50,
+    "sizes": [
+      { "name": "Standard (4.5oz)", "price": 4.50, "caffeineMg": 150 }
+    ],
+    "temperature": "Hot",
+    "sweetnessLevel": "Unsweetened",
+    "defaultSweetnessPercent": 0,
+    "caffeineLevel": "Medium",
+    "caffeineMg": 150,
+    "calories": 45,
+    "milkOptions": ["Whole Milk", "Oat Milk", "Almond Milk", "Skim Milk"],
+    "dietaryTags": ["Gluten-Free", "Keto-Friendly", "Sugar-Free"],
+    "ingredients": ["Double Ristretto Espresso", "Steamed Whole Milk or Choice of Plant Milk"],
+    "flavorNotes": ["Nutty Cocoa", "Caramelized Malt", "Toasted Walnut"],
+    "roastLevel": "Medium-Dark",
+    "popularity": 88,
+    "isFeatured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_caramel_cloud_macchiato_06",
+    "name": "Caramel Cloud Macchiato",
+    "category": "Specialty & Seasonal",
+    "description": "Aerated frothed milk foam layered over rich espresso and drizzled with handmade salted sea-salt caramel sauce.",
+    "basePrice": 5.95,
+    "sizes": [
+      { "name": "Small (12oz)", "price": 5.45, "caffeineMg": 140 },
+      { "name": "Medium (16oz)", "price": 5.95, "caffeineMg": 150 },
+      { "name": "Large (20oz)", "price": 6.50, "caffeineMg": 220 }
+    ],
+    "temperature": "Both",
+    "sweetnessLevel": "Sweet",
+    "defaultSweetnessPercent": 75,
+    "caffeineLevel": "Medium",
+    "caffeineMg": 150,
+    "calories": 250,
+    "milkOptions": ["Whole Milk", "Oat Milk", "Almond Milk", "Skim Milk"],
+    "dietaryTags": ["Vegetarian", "Gluten-Free"],
+    "ingredients": ["Espresso", "Milk", "Salted Caramel Sauce", "Vanilla Bean Powder"],
+    "flavorNotes": ["Rich Butterscotch", "Maldon Sea Salt", "Vanilla Cream"],
+    "roastLevel": "Medium-Dark",
+    "popularity": 92,
+    "isFeatured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_pour_over_gesha_07",
+    "name": "Panama Boquete Gesha Pour-Over",
+    "category": "Pour-Over & Single Origin",
+    "description": "Hand-poured filter brew on V60. Extremely floral and complex with jasmine aroma, bergamot tea clarity, and peach finish.",
+    "basePrice": 6.75,
+    "sizes": [
+      { "name": "Single Brew (12oz)", "price": 6.75, "caffeineMg": 180 }
+    ],
+    "temperature": "Hot",
+    "sweetnessLevel": "Unsweetened",
+    "defaultSweetnessPercent": 0,
+    "caffeineLevel": "Medium",
+    "caffeineMg": 180,
+    "calories": 3,
+    "milkOptions": ["None"],
+    "dietaryTags": ["Vegan", "Dairy-Free", "Gluten-Free", "Keto-Friendly", "Organic", "Sugar-Free", "Low-Calorie"],
+    "ingredients": ["Boquete Panama 100% Gesha Varietal", "Mineral Balanced 93°C Water"],
+    "flavorNotes": ["Jasmine Blossom", "White Peach", "Earl Grey Bergamot"],
+    "roastLevel": "Light",
+    "popularity": 91,
+    "isFeatured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": false,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_matcha_latte_ceremonial_08",
+    "name": "Ceremonial Kyoto Matcha Latte",
+    "category": "Teas & Botanicals",
+    "description": "First-harvest ceremonial grade Uji matcha stone-ground in Kyoto, whisked with choice of steamed or iced milk and light organic agave.",
+    "basePrice": 5.75,
+    "sizes": [
+      { "name": "Small (12oz)", "price": 5.25, "caffeineMg": 65 },
+      { "name": "Medium (16oz)", "price": 5.75, "caffeineMg": 80 },
+      { "name": "Large (20oz)", "price": 6.35, "caffeineMg": 100 }
+    ],
+    "temperature": "Both",
+    "sweetnessLevel": "Low-Medium",
+    "defaultSweetnessPercent": 30,
+    "caffeineLevel": "Low",
+    "caffeineMg": 80,
+    "calories": 140,
+    "milkOptions": ["Oat Milk", "Almond Milk", "Soy Milk", "Whole Milk", "Coconut Milk"],
+    "dietaryTags": ["Vegan", "Dairy-Free", "Gluten-Free", "Organic", "Antioxidant-Rich"],
+    "ingredients": ["100% Ceremonial Uji Matcha Powder", "Organic Oat Milk", "Blue Agave Nectar"],
+    "flavorNotes": ["Fresh Grassy Sweetness", "Umami Depth", "Creamy Finish"],
+    "roastLevel": "Unroasted Green Tea",
+    "popularity": 95,
+    "isFeatured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_sparkling_espresso_tonic_09",
+    "name": "Citrus Espresso Tonic",
+    "category": "Specialty & Seasonal",
+    "description": "Chilled Fever-Tree Mediterranean botanical tonic water topped with a floating double shot of espresso and fresh candied orange peel.",
+    "basePrice": 5.50,
+    "sizes": [
+      { "name": "Medium (14oz)", "price": 5.50, "caffeineMg": 150 }
+    ],
+    "temperature": "Cold",
+    "sweetnessLevel": "Low",
+    "defaultSweetnessPercent": 20,
+    "caffeineLevel": "Medium",
+    "caffeineMg": 150,
+    "calories": 40,
+    "milkOptions": ["None"],
+    "dietaryTags": ["Vegan", "Dairy-Free", "Gluten-Free", "Low-Calorie"],
+    "ingredients": ["Double Shot Espresso", "Fever-Tree Tonic Water", "Express Orange Peel", "Ice"],
+    "flavorNotes": ["Crisp Citrus Zest", "Botanical Quinine", "Bright Espresso Crema"],
+    "roastLevel": "Light-Medium",
+    "popularity": 86,
+    "isFeatured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_decaf_swiss_water_latte_10",
+    "name": "Swiss Water Decaf Latte",
+    "category": "Decaf & Low-Caffeine",
+    "description": "100% chemical-free Swiss Water processed decaf espresso with rich body and zero caffeine jitters, steamed with choice of milk.",
+    "basePrice": 5.25,
+    "sizes": [
+      { "name": "Small (12oz)", "price": 4.75, "caffeineMg": 3 },
+      { "name": "Medium (16oz)", "price": 5.25, "caffeineMg": 4 },
+      { "name": "Large (20oz)", "price": 5.85, "caffeineMg": 5 }
+    ],
+    "temperature": "Both",
+    "sweetnessLevel": "Unsweetened",
+    "defaultSweetnessPercent": 0,
+    "caffeineLevel": "None",
+    "caffeineMg": 4,
+    "calories": 130,
+    "milkOptions": ["Oat Milk", "Almond Milk", "Whole Milk", "Skim Milk"],
+    "dietaryTags": ["Decaf", "Gluten-Free", "Keto-Friendly"],
+    "ingredients": ["Swiss Water Decaf Espresso Blend", "Steamed Milk of choice"],
+    "flavorNotes": ["Roasted Almond", "Brown Sugar", "Smooth Cocoa"],
+    "roastLevel": "Medium",
+    "popularity": 83,
+    "isFeatured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  },
+  {
+    "id": "prod_almond_croissant_11",
+    "name": "Artisan Butter Almond Croissant",
+    "category": "Bakery & Bites",
+    "description": "Twice-baked French butter croissant filled with velvety frangipane almond cream and topped with toasted sliced almonds.",
+    "basePrice": 4.85,
+    "sizes": [
+      { "name": "Single Pastry", "price": 4.85, "caffeineMg": 0 }
+    ],
+    "temperature": "Warm or Ambient",
+    "sweetnessLevel": "Medium",
+    "defaultSweetnessPercent": 50,
+    "caffeineLevel": "None",
+    "caffeineMg": 0,
+    "calories": 380,
+    "milkOptions": ["None"],
+    "dietaryTags": ["Vegetarian"],
+    "ingredients": ["Normandy Butter", "Unbleached Wheat Flour", "Almond Flour", "Sliced Almonds", "Powdered Sugar", "Eggs"],
+    "flavorNotes": ["Toasted Nutty", "Flaky Golden Butter", "Sweet Marzipan"],
+    "roastLevel": "Fresh Baked Daily",
+    "popularity": 97,
+    "isFeatured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": false
+    }
+  },
+  {
+    "id": "prod_avocado_sourdough_toast_12",
+    "name": "Meyer Lemon Avocado Sourdough",
+    "category": "Bakery & Bites",
+    "description": "Thick-cut country sourdough toast topped with fresh mashed Hass avocado, watermelon radish, Meyer lemon oil, and dukkah seed crunch.",
+    "basePrice": 7.95,
+    "sizes": [
+      { "name": "Full Portion (2 Slices)", "price": 7.95, "caffeineMg": 0 }
+    ],
+    "temperature": "Fresh Made",
+    "sweetnessLevel": "Savory",
+    "defaultSweetnessPercent": 0,
+    "caffeineLevel": "None",
+    "caffeineMg": 0,
+    "calories": 340,
+    "milkOptions": ["None"],
+    "dietaryTags": ["Vegan", "Dairy-Free", "Plant-Based", "Nut-Free"],
+    "ingredients": ["Artisan Natural Sourdough", "California Hass Avocado", "Watermelon Radish", "Flaky Sea Salt", "Meyer Lemon EVOO", "Sesame & Sunflower Seeds"],
+    "flavorNotes": ["Creamy Avocado", "Zesty Lemon", "Crusty Sourdough Crunch"],
+    "roastLevel": "Made to Order",
+    "popularity": 93,
+    "isFeatured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&auto=format&fit=crop&q=80",
+    "availability": {
+      "store_downtown_01": true,
+      "store_techhub_02": true,
+      "store_waterfront_03": true
+    }
+  }
+]

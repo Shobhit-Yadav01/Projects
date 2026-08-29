@@ -1,0 +1,50 @@
+[
+  {
+    "id": "store_downtown_01",
+    "name": "CoffeeAI Downtown Roastery & Flagship",
+    "address": "450 Market Street, Financial District, San Francisco, CA 94105",
+    "phone": "(415) 555-0192",
+    "hours": {
+      "monday_friday": "6:00 AM – 7:00 PM",
+      "saturday_sunday": "7:00 AM – 6:00 PM"
+    },
+    "features": ["Roastery Viewing Bar", "Nitro Tap Line", "Outdoor Heated Patio", "Free High-Speed Wi-Fi", "Mobile Order Pickup Station"],
+    "currentWaitMinutes": 4,
+    "hasNitroTap": true,
+    "hasDriveThru": false,
+    "rating": 4.9,
+    "reviewCount": 420
+  },
+  {
+    "id": "store_techhub_02",
+    "name": "CoffeeAI Tech Hub Express",
+    "address": "100 Innovation Way, SoMa, San Francisco, CA 94107",
+    "phone": "(415) 555-0184",
+    "hours": {
+      "monday_friday": "6:30 AM – 6:00 PM",
+      "saturday_sunday": "8:00 AM – 4:00 PM"
+    },
+    "features": ["Express Quick Pickup", "Nitro Tap Line", "Ergonomic Workstations", "Wireless Phone Charging"],
+    "currentWaitMinutes": 2,
+    "hasNitroTap": true,
+    "hasDriveThru": false,
+    "rating": 4.8,
+    "reviewCount": 290
+  },
+  {
+    "id": "store_waterfront_03",
+    "name": "CoffeeAI Waterfront Brew Bar",
+    "address": "Pier 14 The Embarcadero, San Francisco, CA 94105",
+    "phone": "(415) 555-0177",
+    "hours": {
+      "monday_friday": "7:00 AM – 6:00 PM",
+      "saturday_sunday": "7:00 AM – 7:00 PM"
+    },
+    "features": ["Bay View Seating", "Pour-Over Slow Bar", "Pet Friendly Patio", "Walk-Up Express Window"],
+    "currentWaitMinutes": 6,
+    "hasNitroTap": false,
+    "hasDriveThru": false,
+    "rating": 4.9,
+    "reviewCount": 510
+  }
+]

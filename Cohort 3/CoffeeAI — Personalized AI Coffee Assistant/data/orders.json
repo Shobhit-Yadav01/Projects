@@ -1,0 +1,140 @@
+[
+  {
+    "id": "ord_9821_alex",
+    "customerId": "cust_alex_01",
+    "orderNumber": "#CF-9821",
+    "createdAt": "2026-08-27T08:45:00Z",
+    "status": "Completed",
+    "storeId": "store_downtown_01",
+    "storeName": "CoffeeAI Downtown Roastery",
+    "items": [
+      {
+        "productId": "prod_cold_brew_01",
+        "productName": "Signature Cold Brew",
+        "size": "Medium (16oz)",
+        "unitPrice": 4.75,
+        "quantity": 1,
+        "customizations": {
+          "milk": "Splash of Oat Milk",
+          "sweetness": "Unsweetened (0%)",
+          "ice": "Regular Ice",
+          "extra": "None"
+        },
+        "itemTotal": 5.25
+      },
+      {
+        "productId": "prod_avocado_sourdough_toast_12",
+        "productName": "Meyer Lemon Avocado Sourdough",
+        "size": "Full Portion",
+        "unitPrice": 7.95,
+        "quantity": 1,
+        "customizations": {
+          "extra": "Extra Meyer Lemon Olive Oil"
+        },
+        "itemTotal": 7.95
+      }
+    ],
+    "subtotal": 13.20,
+    "tax": 1.15,
+    "discount": 0.00,
+    "total": 14.35,
+    "pointsEarned": 28
+  },
+  {
+    "id": "ord_9430_alex",
+    "customerId": "cust_alex_01",
+    "orderNumber": "#CF-9430",
+    "createdAt": "2026-08-22T09:12:00Z",
+    "status": "Completed",
+    "storeId": "store_techhub_02",
+    "storeName": "CoffeeAI Tech Hub Express",
+    "items": [
+      {
+        "productId": "prod_oat_vanilla_latte_03",
+        "productName": "Madagascar Oat Vanilla Latte",
+        "size": "Medium (16oz)",
+        "unitPrice": 5.85,
+        "quantity": 1,
+        "customizations": {
+          "temperature": "Iced",
+          "milk": "Oat Milk",
+          "sweetness": "Quarter Sweet (25%)",
+          "ice": "Light Ice"
+        },
+        "itemTotal": 5.85
+      }
+    ],
+    "subtotal": 5.85,
+    "tax": 0.51,
+    "discount": 0.00,
+    "total": 6.36,
+    "pointsEarned": 12
+  },
+  {
+    "id": "ord_9102_alex",
+    "customerId": "cust_alex_01",
+    "orderNumber": "#CF-9102",
+    "createdAt": "2026-08-15T14:30:00Z",
+    "status": "Completed",
+    "storeId": "store_downtown_01",
+    "storeName": "CoffeeAI Downtown Roastery",
+    "items": [
+      {
+        "productId": "prod_nitro_cold_brew_02",
+        "productName": "Nitro Velvet Draft",
+        "size": "Medium (16oz)",
+        "unitPrice": 5.25,
+        "quantity": 1,
+        "customizations": {
+          "sweetness": "Unsweetened (0%)"
+        },
+        "itemTotal": 5.25
+      },
+      {
+        "productId": "prod_almond_croissant_11",
+        "productName": "Artisan Butter Almond Croissant",
+        "size": "Single Pastry",
+        "unitPrice": 4.85,
+        "quantity": 1,
+        "customizations": {
+          "warming": "Warmed"
+        },
+        "itemTotal": 4.85
+      }
+    ],
+    "subtotal": 10.10,
+    "tax": 0.88,
+    "discount": 1.00,
+    "total": 9.98,
+    "pointsEarned": 20
+  },
+  {
+    "id": "ord_8890_elena",
+    "customerId": "cust_elena_02",
+    "orderNumber": "#CF-8890",
+    "createdAt": "2026-08-25T10:00:00Z",
+    "status": "Completed",
+    "storeId": "store_waterfront_03",
+    "storeName": "CoffeeAI Waterfront Brew Bar",
+    "items": [
+      {
+        "productId": "prod_matcha_latte_ceremonial_08",
+        "productName": "Ceremonial Kyoto Matcha Latte",
+        "size": "Large (20oz)",
+        "unitPrice": 6.35,
+        "quantity": 1,
+        "customizations": {
+          "temperature": "Iced",
+          "milk": "Almond Milk",
+          "sweetness": "Light Agave (25%)"
+        },
+        "itemTotal": 6.35
+      }
+    ],
+    "subtotal": 6.35,
+    "tax": 0.55,
+    "discount": 0.00,
+    "total": 6.90,
+    "pointsEarned": 14
+  }
+]

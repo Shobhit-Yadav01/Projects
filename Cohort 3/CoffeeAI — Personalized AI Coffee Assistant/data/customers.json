@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cust_alex_01",
+    "name": "Alex Chen",
+    "email": "alex.chen@example.com",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "membershipTier": "Gold Bean Member",
+    "loyaltyPoints": 340,
+    "preferences": {
+      "favoriteCategory": "Cold Brew",
+      "preferredTemperature": "Cold",
+      "sweetnessLevel": "Low",
+      "sweetnessPercent": 15,
+      "milkPreference": "Oat Milk",
+      "dietaryPreferences": ["Dairy-Free", "Low-Sugar"],
+      "caffeinePreference": "High",
+      "favoriteProductIds": ["prod_cold_brew_01", "prod_oat_vanilla_latte_03"],
+      "dislikedIngredients": ["Artificial Flavors", "Cow Milk Dairy"],
+      "notes": "Prefers single-origin African beans, crisp clean finish, no heavy syrups."
+    },
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  {
+    "id": "cust_elena_02",
+    "name": "Elena Rostova",
+    "email": "elena.r@example.com",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+    "membershipTier": "Platinum Barista Circle",
+    "loyaltyPoints": 620,
+    "preferences": {
+      "favoriteCategory": "Teas & Botanicals",
+      "preferredTemperature": "Both",
+      "sweetnessLevel": "Low-Medium",
+      "sweetnessPercent": 30,
+      "milkPreference": "Almond Milk",
+      "dietaryPreferences": ["Vegan", "Organic", "Gluten-Free"],
+      "caffeinePreference": "Low",
+      "favoriteProductIds": ["prod_matcha_latte_ceremonial_08"],
+      "dislikedIngredients": ["Refined White Sugar", "Dairy"],
+      "notes": "Loves antioxidant-rich drinks and ceremonial grade teas."
+    },
+    "createdAt": "2024-02-10T11:20:00Z"
+  },
+  {
+    "id": "cust_marcus_03",
+    "name": "Marcus Vance",
+    "email": "marcus.v@example.com",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "membershipTier": "Silver Club",
+    "loyaltyPoints": 180,
+    "preferences": {
+      "favoriteCategory": "Pour-Over & Single Origin",
+      "preferredTemperature": "Hot",
+      "sweetnessLevel": "Unsweetened",
+      "sweetnessPercent": 0,
+      "milkPreference": "None",
+      "dietaryPreferences": ["Keto-Friendly", "Sugar-Free"],
+      "caffeinePreference": "Medium-High",
+      "favoriteProductIds": ["prod_pour_over_gesha_07", "prod_cortado_05"],
+      "dislikedIngredients": ["Sweeteners", "Syrups"],
+      "notes": "Specialty coffee purist. Cares about roast dates and extraction ratios."
+    },
+    "createdAt": "2024-03-01T09:15:00Z"
+  }
+]

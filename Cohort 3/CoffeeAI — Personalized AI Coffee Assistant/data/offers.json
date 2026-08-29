@@ -1,0 +1,46 @@
+[
+  {
+    "id": "promo_morning_boost",
+    "code": "MORNING15",
+    "title": "Early Bird Special — 15% Off Cold Brews",
+    "description": "Order any cold brew or nitro draft before 10:00 AM on weekdays and get 15% off automatically applied.",
+    "discountPercent": 15,
+    "eligibleCategories": ["Cold Brew"],
+    "validUntil": "2026-12-31",
+    "active": true,
+    "badge": "15% OFF"
+  },
+  {
+    "id": "promo_oat_tuesdays",
+    "code": "FREEPLANTMILK",
+    "title": "Plant Milk Upgrade Tuesdays",
+    "description": "Upgrade to Oatly Barista Oat Milk or Almond Milk at $0 extra charge on any handcrafted latte every Tuesday.",
+    "discountValue": 0.75,
+    "eligibleCategories": ["Espresso & Milk", "Teas & Botanicals"],
+    "validUntil": "2026-12-31",
+    "active": true,
+    "badge": "FREE UPGRADE"
+  },
+  {
+    "id": "promo_duo_pairing",
+    "code": "BREWANDBITES",
+    "title": "Brew & Bite Morning Combo ($2 Off)",
+    "description": "Pair any handcrafted beverage with a fresh bakery pastry or toast to save $2.00 instantly.",
+    "discountValue": 2.00,
+    "eligibleCategories": ["All Combos"],
+    "validUntil": "2026-12-31",
+    "active": true,
+    "badge": "SAVE $2"
+  },
+  {
+    "id": "promo_gesha_double_pts",
+    "code": "GESHAPOINTS",
+    "title": "Double Points on Single-Origin Gesha",
+    "description": "Earn 2x loyalty rewards points when discovering our Panama Boquete Gesha Pour-Over series.",
+    "pointsMultiplier": 2,
+    "eligibleCategories": ["Pour-Over & Single Origin"],
+    "validUntil": "2026-10-31",
+    "active": true,
+    "badge": "2X POINTS"
+  }
+]

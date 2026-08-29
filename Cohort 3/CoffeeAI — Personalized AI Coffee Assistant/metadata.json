@@ -1,0 +1,6 @@
+{
+  "name": "CoffeeAI — Personalized AI Coffee Assistant",
+  "description": "An intelligent customer-facing AI agent with RAG knowledge grounding, smart tools, conversation memory, and personalized recommendations powered by Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
