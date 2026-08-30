@@ -1,0 +1,7 @@
+{
+  "name": "Coffee Shop Expansion Intelligence",
+  "description": "AI-powered location strategy using Gemini, BigQuery, and the BigQuery MCP Server to optimize store placement with business analytics and cycling mobility data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
